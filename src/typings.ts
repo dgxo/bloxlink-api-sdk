@@ -58,7 +58,7 @@ export type RobloxUser = {
 }
 
 export type DiscordToRobloxGuildAPIResponse = {
-    robloxId: string;
+    robloxID: string;
     resolved: {
         roblox?: RobloxUser;
         discord?: APIGuildMember;
@@ -79,7 +79,7 @@ export type UpdateUserGuildAPIResponse = {
 }
 
 export type DiscordToRobloxGlobalAPIResponse = {
-    robloxId: string;
+    robloxID: string;
     resolved: {
         roblox?: RobloxUser;
     };
